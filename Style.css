@@ -1,0 +1,416 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 50px;
+}
+h1{
+    color: rgb(27, 78, 118);
+    font-size: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: -100px;
+}
+h2{
+    color: rgb(27, 78, 118);
+    font-size: 150px;
+}
+p{
+    color: rgb(27, 78, 118);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+}
+
+.img-borboleta{
+    
+    position: absolute;
+    z-index: 0;
+    margin-left: 60%;
+    
+}
+.img-borboleta img{
+    width: 40%;
+    height: 40%;
+    transform: translate(-60%,-70%);
+}
+
+.container {
+  display: flex;
+  gap: 10px; /* Espaço entre os retângulos */
+}
+
+.retangulo {
+  background-color:rgb(27, 78, 118);
+  color: white;
+  padding:10px;
+  border-radius: 15px;
+  text-align: center;
+  width: 250px;
+  font-family: Arial, sans-serif;
+  margin-top: 30PX;
+}
+
+
+
+.Retangulo{
+    background-color: rgb(27, 78, 118);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border-radius: 10px;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+h4 {
+  font-family: Arial, sans-serif;
+  color:  rgb(27, 78, 118);
+  line-height: 1.9;
+  font-size: 30px;
+  text-align: right;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.img-florazul{
+    margin-left: 1000px;
+    width: 30px;
+    height: 79px;
+
+}
+
+.identificacao-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.foto-identificacao img {
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.dados-identificacao h4 {
+    font-size: 28px;
+    text-align: left;
+    margin: 0;
+    color: rgb(27, 78, 118);
+    line-height: 2;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.Retangulo{
+    background-color: rgb(27, 78, 118);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border-radius: 10px;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+
+
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.retangulo1 {
+  background-color:  rgb(27, 78, 118);
+  color: white;
+  padding: 80px;
+  width: 180px;
+  text-align: center;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(158, 31, 31, 0.1);
+  margin-top: 60px;
+}
+.IMG-FLOR{
+    
+    position: absolute;
+    z-index: 0;
+    margin-left: 60%;
+    
+}
+.IMG-FLOR img {
+    width: 40%;
+    height: 40%;
+    transform: translate(-40%,-30%);
+}
+
+.IMG-flor2{
+    
+    position: absolute;
+    z-index: 0;
+    margin-left: 60%;
+    
+}
+.IMG-flor2 img {
+    width: 40%;
+    height: 40%;
+    transform: translate(-350%,-30%);
+}
+/* Efeito ao passar o cursor */
+.retangulo1:hover {
+  background-color: #2e97cc;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.Retangulo{
+    background-color: rgb(27, 78, 118);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border-radius: 10px;
+    margin-top: 180px;
+    padding: 20px;
+}
+/*PPE*/
+
+table {
+  width: 1300px;  /* Definindo a largura da tabela */
+  height: 400px;  /* Definindo a altura da tabela */
+  border-collapse: collapse;
+  margin: 20px auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);  /* Sombra suave */
+  margin-top: 60px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #024063;
+}
+
+th {
+  background-color: #1f2a44;
+  color:#fefcf7
+}
+
+td {
+  background-color: #74c0fc;
+  color:#ffffff
+}
+
+.dark-blue-cell {
+  background-color: #1f2a44;
+  color: white;
+}
+
+.blue-cell {
+  background-color:rgb(27, 78, 118);
+}
+
+
+/*REtangulo Historia de vida*/
+
+.Retangulo{
+    background-color: rgb(27, 78, 118);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border-radius: 10px;
+    margin-top: 180px;
+    padding: 20px;
+}
+/*MINHA HISTÓRIA DE VIDA*/
+
+h5{
+   font-family: Arial, sans-serif;
+  color:  rgb(27, 78, 118);
+  line-height: 1.9;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+
+/*Projeto de vida*/
+.Retangulo{
+    background-color: rgb(27, 78, 118);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border-radius: 10px;
+    margin-top: 180px;
+    padding: 20px;
+}
+
+/*retangulos do projeto de vida*/
+
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.retangulo {
+  background-color:rgb(27, 78, 118);
+  color: white;
+  padding:10px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+  font-family: Arial, sans-serif;
+  margin-top: 30PX;
+}
+
+
+
+/* Container dos novos 3 retângulos (embaixo) */
+.novos-retangulos-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+/* Estilo dos novos retângulos */
+.novo-retangulo {
+  background-color: rgb(28, 81, 122);
+ 
+  color: white;
+  width: 300px;
+  height: 170px;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 40px;
+}
+
+/* Efeito hover nos novos retângulos */
+.novo-retangulo:hover {
+  background-color: #2e97cc;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.IMG-flor3{
+    
+    position: absolute;
+    z-index: 0;
+    margin-left: 60%;
+    
+}
+.IMG-flor3 img {
+    width: 40%;
+    height: 40%;
+    transform: translate(-460%,-140%);
+}
+
+.img-borboleta2{
+    
+    position: absolute;
+    z-index: 0;
+    margin-left: 60%;
+    
+}
+.img-borboleta2 img {
+    width: 40%;
+    height: 40%;
+    transform: translate(80%,-170%);
+}
+
+.Atividades {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center; 
+    padding: 20px;
+    margin-top: 20px;  /* Reduzido para aproximar os círculos da linha */
+}
+
+.Atividades img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: none;
+    object-fit: cover;
+    margin: 0 20px;  /* Ajustado para diminuir o espaçamento entre as imagens */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Atividades img:hover {
+    transform: scale(1.1);  /* Aumenta a imagem ao passar o mouse */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* Adiciona uma sombra ao passar o mouse */
+}
+
+.texto {
+    font-size: 30px;
+    text-align: center; /* centraliza o texto */
+    color: rgb(28, 81, 122);
+    margin-bottom: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.linha {
+    border: none;
+    border-bottom: 2px solid #1f2a44; /* cor e espessura da linha */
+    width: 100%; /* ocupa toda a largura da tela */
+    margin: 0; /* tira espaço extra */
+}
+
+.Escolhidas {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center; 
+    padding: 20px;
+    margin-top: 20px; /* Reduzido para aproximar mais os círculos da linha */
+}
+
+.Escolhidas img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: none;
+    object-fit: cover;
+    margin: 0 20px; /* Ajusta as margens laterais */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Escolhidas img:hover {
+    transform: scale(1.1); /* Um leve aumento ao passar o mouse */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra no hover */
+}
+
+.referencia {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center; 
+    padding: 20px;
+    margin-top: 20px; /* Reduzido para aproximar mais os círculos da linha */
+}
+
+.referencia img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: none;
+    object-fit: cover;
+    margin: 0 20px; /* Ajusta as margens laterais */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.referencia img:hover {
+    transform: scale(1.1); /* Um leve aumento ao passar o mouse */
+    box-shadow: 0 4px 12px rgb(28, 81, 122); /* Adiciona uma sombra no hover */
+}
+
+

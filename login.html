@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Maria Yasmin</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    
+    body {
+            margin: 0;
+            padding: 0;
+            background-image: url(IMAGENS/flor\ login.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+    @keyframes animarFundo {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    form {
+      background: var(--vidro);
+      padding: 40px;
+      border-radius: 20px;
+      backdrop-filter: blur(90px);
+      box-shadow: 0 0 30px  rgb(27, 78, 118);
+      width: 320px;
+      text-align: center;
+      z-index: 1;
+      position: relative;
+    }
+
+    h3 {
+      color: rgb(27, 78, 118);
+      margin-bottom: 20px;
+      font-size: 26px;
+      text-shadow: 0 0 10px var(--laranja);
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 10px;
+      background-color:  rgb(27, 78, 118);
+      color: var(--textoClaro);
+      outline: none;
+      transition: 0.3s;
+    }
+    input::placeholder {
+      color: #DAA520 /* ou qualquer outra cor que você quiser */
+      
+}
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+      box-shadow: 0 0 10px var(--roxo);
+      color: rgb(255, 255, 255);
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 12px;
+      background: linear-gradient(to right, var(--rosa), var(--roxo), var(--laranja));
+      background-size: 200% auto;
+      color: rgb(27, 78, 118);
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.4s ease-in-out;
+    }
+
+    input[type="submit"]:hover {
+      background-position: right center;
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgb(27, 78, 118);
+    }
+  </style>
+</head>
+
+<!--HTML-->
+
+<body>
+  <form>
+    <h3>Meu Portfólio</h3>
+    <input type="text" placeholder="Usuário" id="login" />
+    <input type="password" placeholder="Senha" id="senha" />
+    <input type="submit" value="Entrar" onclick="logar();return false" />
+  </form>
+
+  <script>
+    function logar() {
+      var login = document.getElementById("login").value;
+      var senha = document.getElementById("senha").value;
+      if (login === "admin" && senha === "admin") {
+        alert("Sucesso!");
+        window.location.href = "Index.html";
+      } else {
+        alert("Usuário ou senha inválidos.");
+      }
+    }
+  </script>
+</body>
+
+</html>

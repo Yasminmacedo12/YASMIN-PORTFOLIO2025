@@ -1,0 +1,56 @@
+body{
+   color: #92782d;
+   background-color: #ffffff;
+   font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+h1{
+    color: rgb(27, 78, 118);
+}
+
+p{
+font-size: 25px;
+margin-top: 26px;
+color: rgb(1, 33, 123);
+margin-left: 30px;
+ }
+.image-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center; /* Centraliza as imagens */
+}
+
+img {
+    width: 260px; /* Define um tamanho padrão */
+   
+    height: 385px; /* Mantém a proporção da imagem */
+}
+/*Crescer imagem*/
+ul img:hover{
+        transform: scale(1.5);
+}
+
+.img-borboleta {
+    position: absolute;
+    z-index: 0;
+    left: 80%; /* lado direito */
+}
+
+.img-borboleta img {
+    width: 120px;
+    height: auto;
+    transform: translate(-50%, -70%);
+}
+
+.IMG-Flor {
+    position: absolute;
+    z-index: 0;
+    left: 15%; /* lado esquerdo */
+}
+
+.IMG-Flor img {
+    width: 160px;
+    height: auto;
+    transform: translate(0%, -70%);
+}
